@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
+#Omni Charger
+PRODUCT_PACKAGES += \
+    omni_charger_res_images
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/clatd.conf:system/etc/clatd.conf \
@@ -102,7 +106,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
 # Gello
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Gello
 
 # Ramdisk
